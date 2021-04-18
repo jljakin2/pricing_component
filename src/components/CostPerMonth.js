@@ -2,7 +2,7 @@ import React from "react";
 
 import "./CostPerMonth.css";
 
-const CostPerMonth = ({ checked, price }) => {
+const CostPerMonth = ({ checked, price, views }) => {
   return (
     <div className="costPerMonth__container">
       <h1 className="costPerMonth__amount">

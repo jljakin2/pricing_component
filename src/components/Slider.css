@@ -1,7 +1,64 @@
+@import "../variables.css";
+
 .slider__container {
   width: 100%;
 }
 
 .slider__container input {
+  -webkit-appearance: none;
   width: 100%;
+}
+
+.slider__container input:focus {
+  outline: none;
+}
+
+/* needed for CHROME */
+.slider__container input::-webkit-slider-runnable-track,
+/* needed for FIREFOX */
+.slider__container input::-moz-range-track {
+  width: 100%;
+  height: 0.5rem;
+  cursor: pointer;
+  background: var(--light-grayish-blue);
+  border-radius: 0.3125rem;
+}
+
+/* needed for CHROME */
+.slider__container input::-webkit-slider-thumb {
+  height: 2.5rem;
+  width: 2.5rem;
+  cursor: pointer;
+  -webkit-appearance: none;
+  background-image: url(../images/icon-slider.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  background-color: var(--strong-cyan);
+  box-shadow: 0 0.5rem 1.5rem 0 rgba(0, 255, 231, 0.6);
+  transform: translateY(-1rem);
+}
+
+/* needed for FIREFOX */
+.slider__container input::-moz-range-thumb {
+  height: 2.5rem;
+  width: 2.5rem;
+  cursor: pointer;
+  -webkit-appearance: none;
+  background-image: url(../images/icon-slider.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  background-color: var(--strong-cyan);
+  box-shadow: 0 0.5rem 1.5rem 0 rgba(0, 255, 231, 0.6);
+}
+
+/* needed for FIREFOX */
+/* ! NOTE: the range progress is only used in firefox. if you wanted to do something similar for chrome,
+! you'd have to use a series of box shadows the follow the thumb. you'd also have to set overflow to hidden
+! so you wouldn't be able to have a thumb that is larger than the track */
+.slider__container input::-moz-range-progress {
+  background: var(--soft-cyan);
+  height: 0.5rem;
+  border-radius: 0.3125rem;
 }

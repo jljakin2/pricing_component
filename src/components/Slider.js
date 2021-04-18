@@ -12,7 +12,7 @@ class Slider extends React.Component {
       <div className="slider__container">
         <input
           type="range"
-          min={10000}
+          min={0}
           max={1000000}
           value={this.props.views}
           step={10000}

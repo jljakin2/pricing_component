@@ -1,0 +1,61 @@
+@import "../variables.css";
+
+.discountToggle__container {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+}
+
+.discountToggle__label {
+  font-size: 0.75rem;
+  color: var(--grayish-blue--text);
+}
+
+.discountToggle__toggleBtn {
+  background: var(--light-grayish-blue--background);
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  display: flex;
+  align-items: center;
+
+  width: 2rem;
+  height: 1.375rem;
+
+  margin: 0 1rem;
+  padding: 0 0.15rem;
+}
+
+.checkbox {
+  display: none;
+}
+
+.checkbox:checked + .discountToggle__toggleBtn {
+  transition: all 0.3s ease-out;
+  justify-content: flex-end;
+  background: var(--strong-cyan);
+}
+
+.circle {
+  border-radius: 50%;
+  background: var(--white);
+
+  width: 0.875rem;
+  height: 0.875rem;
+}
+
+.discountToggle__container::after {
+  content: "25% discount";
+  font-size: 0.75rem;
+  background: var(--light-grayish-red);
+  color: var(--light-red);
+  border-radius: 0.59375rem;
+
+  position: absolute;
+  top: -0.1875rem;
+  right: 0.3rem;
+
+  padding: 0.2rem 0.5rem;
+}

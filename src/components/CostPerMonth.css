@@ -1,0 +1,23 @@
+@import "../variables.css";
+
+.costPerMonth__container {
+  display: flex;
+  align-items: center;
+
+  transform: translateY(-1rem);
+}
+
+.costPerMonth__amount {
+  font-weight: var(--semi-bold);
+  font-size: 2.5rem;
+  color: var(--dark-desat-blue);
+  letter-spacing: -1px;
+
+  margin-right: 0.5rem;
+}
+
+.costPerMonth__label {
+  font-weight: var(--semi-bold);
+  font-size: 1rem;
+  color: var(--grayish-blue--text);
+}

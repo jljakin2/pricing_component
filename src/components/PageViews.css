@@ -1,0 +1,18 @@
+@import "../variables.css";
+
+.pageviews__container {
+  width: 8.75rem;
+}
+
+.pageviews__content {
+  font-size: 0.875rem;
+  color: var(--grayish-blue--text);
+  letter-spacing: 0.125rem;
+  text-align: center;
+  text-transform: uppercase;
+  display: block;
+}
+
+.pageviews__content span {
+  display: block;
+}

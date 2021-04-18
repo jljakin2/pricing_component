@@ -1,0 +1,28 @@
+@import "../variables.css";
+
+.header__container {
+  background-image: url(../images/pattern-circles.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+
+  height: 9.0625rem;
+  padding: 2rem;
+  margin-bottom: 3.375rem;
+}
+
+.header__title {
+  font-size: 1.75rem;
+  color: var(--dark-desat-blue);
+  font-weight: var(--semi-bold);
+
+  margin-bottom: 0.75rem;
+}
+
+.header__sub-title {
+  font-size: 1rem;
+  color: var(--grayish-blue--text);
+}

@@ -1,0 +1,13 @@
+@import "../variables.css";
+
+.feature__item {
+  font-size: 0.75rem;
+  color: var(--grayish-blue--text);
+  font-weight: var(--semi-bold);
+
+  padding-left: 1rem;
+}
+
+.feature__item:not(:last-child) {
+  margin-bottom: 0.625rem;
+}

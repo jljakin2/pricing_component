@@ -1,0 +1,15 @@
+@import "../variables.css";
+
+button {
+  background: var(--dark-desat-blue);
+  border-radius: 1.28125rem;
+  font-size: 0.75rem;
+  color: var(--grayish-blue--text);
+  cursor: pointer;
+
+  padding: 0.75rem 2.875rem;
+}
+
+button:hover {
+  color: var(--white);
+}

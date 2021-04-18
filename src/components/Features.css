@@ -1,0 +1,4 @@
+.features__list {
+  list-style: none;
+  list-style-image: url(../images/icon-check.svg);
+}

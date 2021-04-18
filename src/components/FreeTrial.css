@@ -1,0 +1,9 @@
+.freeTrial__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+  height: calc(100% - 16.3125rem);
+  padding: 0 2.75rem 0 3rem;
+}

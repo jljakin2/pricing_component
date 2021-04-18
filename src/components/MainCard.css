@@ -1,0 +1,8 @@
+.mainCard__container {
+  background: var(--white);
+  box-shadow: 0 1.25rem 1.875rem -0.3125rem rgba(127, 137, 185, 0.15);
+  border-radius: 0.5rem;
+
+  width: 33.75rem;
+  height: 25rem;
+}

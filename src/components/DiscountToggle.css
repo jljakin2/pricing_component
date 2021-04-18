@@ -52,10 +52,26 @@
   background: var(--light-grayish-red);
   color: var(--light-red);
   border-radius: 0.59375rem;
+  font-weight: var(--semi-bold);
 
   position: absolute;
   top: -0.1875rem;
   right: 0.3rem;
 
   padding: 0.2rem 0.5rem;
+}
+
+@media only screen and (max-width: 37.5em) {
+  /* 600px */
+  .discountToggle__container {
+    margin-top: 1rem;
+  }
+
+  .discountToggle__container::after {
+    content: "-25%";
+    font-size: 0.625rem;
+    font-weight: var(--semi-bold);
+    top: -0.1rem;
+    right: -1rem;
+  }
 }

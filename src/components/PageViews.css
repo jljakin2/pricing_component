@@ -16,3 +16,17 @@
 .pageviews__content span {
   display: block;
 }
+
+@media only screen and (max-width: 37.5em) {
+  /* 600px */
+  .pageviews__container {
+    order: 1;
+
+    margin-bottom: 1rem;
+  }
+
+  .pageviews__content {
+    font-size: 0.75rem;
+    font-weight: var(--semi-bold);
+  }
+}

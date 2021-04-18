@@ -7,3 +7,13 @@
   height: calc(100% - 16.3125rem);
   padding: 0 2.75rem 0 3rem;
 }
+
+@media only screen and (max-width: 37.5em) {
+  /* 600px */
+  .freeTrial__container {
+    flex-direction: column;
+    justify-content: flex-start;
+
+    padding-bottom: 2rem;
+  }
+}

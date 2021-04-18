@@ -6,3 +6,11 @@
   width: 33.75rem;
   height: 25rem;
 }
+
+@media only screen and (max-width: 600px) {
+  /* 600px */
+  .mainCard__container {
+    width: 20.4375rem;
+    height: 100%;
+  }
+}

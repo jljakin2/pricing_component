@@ -4,6 +4,7 @@ import "./Slider.css";
 
 class Slider extends React.Component {
   handleChange = e => {
+    // calls back to the Pricing component in order to update state for the number of views
     this.props.handleSliderChange(e.target.value);
   };
 

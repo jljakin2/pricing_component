@@ -14,6 +14,20 @@
 }
 
 .pricing__header {
+  height: 100%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
+}
+
+@media only screen and (max-width: 37.5em) {
+  /* 600px */
+  .pricing__container {
+    padding: 2.5rem 1.5rem;
+    height: 100%;
+  }
+
+  .pricing__header {
+    justify-content: center;
+  }
 }

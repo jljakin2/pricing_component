@@ -2,3 +2,10 @@
   list-style: none;
   list-style-image: url(../images/icon-check.svg);
 }
+
+@media only screen and (max-width: 37.5em) {
+  /* 600px */
+  .features__list {
+    margin: 1.5rem 0 2rem 0;
+  }
+}

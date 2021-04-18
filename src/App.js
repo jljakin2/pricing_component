@@ -14,15 +14,3 @@ const App = () => {
 };
 
 export default App;
-
-// Header
-// MainCard
-//   Pricing
-//     PageViews
-//     CostPerMonth
-//     Slider
-//     DiscountToggle
-//   FreeTrial
-//     Features
-//       FeatureItem
-//     Button

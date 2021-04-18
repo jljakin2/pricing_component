@@ -10,6 +10,7 @@ const DiscountToggle = ({ handleDiscountToggle }) => {
         <input type="checkbox" className="checkbox" />
         <div
           className="discountToggle__toggleBtn"
+          // when toggle button is clicked, we call the prop function from the pricing.js component
           onClick={() => handleDiscountToggle()}>
           <div className="circle"></div>
         </div>

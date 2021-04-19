@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [link](https://blogr-murex.vercel.app/)
+- Live Site URL: [link](https://pricing-component-pi.vercel.app/)
 
 ## My process
 
